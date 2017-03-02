@@ -1,0 +1,226 @@
+
+
+body {
+    background-color: #666;
+    color: snow;
+    font-size: 1em;
+}
+
+.container {
+    padding-top: 10%;
+    background-color: #666;
+}
+
+.singular_circle{
+
+}
+
+/**{*/
+    /*border: solid 1px white;*/
+/*}*/
+
+.attribute_text{
+    font-size: 1.4em;
+}
+
+#current_word{
+    font-size: 8em;
+}
+
+.attribute_container{
+    padding: 15% 15% 5% 15%;
+}
+
+
+
+/*-----------CASE-------------------*/
+
+#case{
+    overflow: visible;
+    width: 86%;
+    margin-bottom: 3%;
+    -vendor-animation-delay: 2.4s;
+}
+
+/*-----------GENDER-------------------*/
+
+#man{
+    overflow: visible;
+    width: 90%;
+    margin-bottom: 6%;
+}
+
+#woman{
+    overflow: visible;
+    width: 66%;
+    margin-bottom: 21%;
+}
+
+
+#man_animation{
+    position: relative;
+    bottom: 7%;
+    display: none;
+}
+
+
+#woman_animation{
+    position: relative;
+    bottom: 7%;
+}
+
+/*MASCULINE ANIMATION */
+@keyframes masculine_animation {
+     0% { r: 0; fill: #666;}
+     100% { r: 2; fill: white;}
+ }
+
+#man_head {
+    animation: masculine_animation 0.6s ease forwards;
+    animation-delay: 0.2s;
+    fill: #666;
+}
+
+#man_body {
+    animation: masculine_animation 0.6s ease forwards;
+    fill: #666;
+}
+
+
+/*FEMININE ANIMATION */
+@keyframes feminine_animation {
+    0% { r: 0; fill: #666;}
+    100% { r: 2.6; fill: white;}
+}
+
+#woman_head {
+    animation: feminine_animation 0.6s ease forwards;
+    animation-delay: 0.2s;
+    fill: #666;
+}
+
+#woman_body {
+    animation: feminine_animation 0.6s ease forwards;
+    fill: #666;
+}
+
+
+
+
+/*-----------SINGULAR/PLURAL-------------------*/
+
+#plural_animation{
+    display: none;
+}
+
+
+/*SINGULAR ANIMATION */
+@keyframes singular_animation {
+    0% { r: 0; fill: #666;}
+    100% { r: 9; fill: white;}
+}
+
+#singular_circle{
+    animation: singular_animation 1s ease forwards;
+}
+
+/*PLURAL ANIMATION */
+@keyframes hideshow {
+    0% { r: 0; fill: #666;}
+    100% { r: 4; fill: white;}
+}
+
+#circle1{
+    animation: hideshow 1s ease forwards;
+}
+
+#circle2{
+    animation: hideshow 1s ease forwards;
+    animation-delay: 0.12s
+
+}
+
+#circle3{
+    animation: hideshow 1s ease forwards;
+    animation-delay: 0.24s
+}
+
+#circle4{
+    animation: hideshow 1s ease forwards;
+    animation-delay: 0.36s
+}
+
+#circle5{
+    animation: hideshow 1s ease forwards;
+    animation-delay: 0.48s
+}
+
+#circle6{
+    animation: hideshow 1s ease forwards;
+    animation-delay: 0.60s
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 767px) {
+    body {
+        font-size: 0.9em;
+    }
+
+    #current_word{
+        font-size: 5em;
+    }
+}
+
+/* sm */
+@media screen and (min-width: 768px) {
+
+    body {
+        font-size: 1em;
+    }
+}
+
+/* md */
+@media screen and (min-width: 992px) {
+    body {
+        font-size: 1.2em;
+    }
+}
+
+/* lg */
+@media screen and (min-width: 1200px) {
+    body {
+        font-size: 1.3em;
+    }
+}
+
+
+
+.circle{
+    width: 2em;
+    height: 2em;
+    border: solid 1px snow;
+    border-radius: 50%;
+}
+
+
+.col-centered{
+    float: none;
+    margin: 0 auto;
+}
+
+
+.circle:hover{
+    background-color: #cceeff;
+}
+

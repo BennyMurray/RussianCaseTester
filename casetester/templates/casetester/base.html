@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Russian Case Tester</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="theme.css">
+    <link rel="stylesheet" href="animate.css">
+</head>
+
+<body>
+
+
+
+<div class="container">
+
+    {% block content %}
+    {% endblock %}
+
+</div><!-- /.container -->
+
+
+<!-- Bootstrap core JavaScript
+================================================== -->
+<!-- Placed at the end of the document so the pages load faster -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
+<script src="../../dist/js/bootstrap.min.js"></script>
+<!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+<script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
+
+<script>
+
+
+    function show_plural(){
+        document.getElementById('singular_animation').style.display = 'none';
+        document.getElementById('plural_animation').style.display = 'block';
+        document.getElementById('plural_or_singular_text').innerHTML = 'Plural';
+    }
+
+    function show_singular(){
+        document.getElementById('plural_animation').style.display = 'none';
+        document.getElementById('singular_animation').style.display = 'block';
+        document.getElementById('plural_or_singular_text').innerHTML = 'Singular';
+    }
+
+    function show_masculine(){
+        document.getElementById('woman_animation').style.display = 'none';
+        document.getElementById('man_animation').style.display = 'block';
+        document.getElementById('gender_text').innerHTML = 'Masculine';
+    }
+
+    function show_feminine(){
+        document.getElementById('man_animation').style.display = 'none';
+        document.getElementById('woman_animation').style.display = 'block';
+        document.getElementById('gender_text').innerHTML = 'Feminine';
+    }
+
+
+    var counter = 0;
+
+    function toggle(){
+        if(counter == 0){
+            show_plural();
+            show_masculine();
+            counter = 1;
+        }else{
+            show_singular();
+            show_feminine();
+            counter = 0;
+        }
+    }
+
+</script>
+</body>
+</html>

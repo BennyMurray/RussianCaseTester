@@ -1,0 +1,130 @@
+{% extends 'base.html' %}
+
+
+    <div class="starter-template text-center mb-2">
+        <h1 id="current_word" onclick="toggle()">Собака (dog)</h1>
+    </div>
+
+    <div class="row mt-1" style="margin-top: 4%;">
+
+
+        <!------------GENDER COLUMN----------------->
+
+
+        <div class="col-md-4 col-sm-4 col-xs-6 text-center">
+            <div id="man_animation" class="attribute_container">
+                <svg version="1.1" id="man" class="animated bounce" xmlns="http://www.w3.org/2000/svg" viewBox="-10.7 0 30.1 18.4">
+                <style type="text/css"> .st0{fill:#666666;}</style>
+                <circle id="man_head" class="st0" cx="4.4" cy="2" r="2"/>
+                <path id="man_body" class="st0" d="M9,13.3V7.2c0-1.3-1-2.6-2.6-2.6h-4C1.1,4.6,0,5.4,0,6.9v6.4c0,1.1,1.5,1,1.5-0.1V7.6h0.4v15.6
+                    c0,1.7,2.3,1.6,2.3,0v-9h0.3v9c0.1,1.6,2.4,1.7,2.4,0V7.6h0.4v5.7C7.3,14.5,9,14.5,9,13.3z"/>
+                </svg>
+            </div><!-- /.man_animation -->
+
+
+
+            <div id="woman_animation" class="attribute_container">
+                <svg version="1.1" id="woman" class="animated bounce" xmlns="http://www.w3.org/2000/svg" viewBox="-7.7 0 30.1 18.4">
+                <style type="text/css"> .st0{fill:#FFFFFF;}</style>
+                <circle id="woman_head" class="st0" cx="7.2" cy="2.6" r="2.6"/>
+                <path id="woman_body" class="st0" d="M7,21.8V31c0,1.7-2.5,1.7-2.5,0v-9.1H1.3L4.7,9.7H4.2l-2,6.9c-0.5,1.5-2.6,0.9-2.1-0.7l2.3-7.5
+                    C2.6,7.5,3.7,6,5.6,6h3.6c1.8,0,2.9,1.6,3.2,2.4l3,7.7c0.5,1.6-1.6,2.3-2.1,0.7l-2.8-7.2H9.9l3.5,12.2h-3.3V31c0,1.7-2.4,1.6-2.4,0
+                    v-9.1H7V21.8z"/>
+                </svg>
+
+            </div><!-- /.man_animation -->
+
+
+
+
+
+
+            <!--GENDER TEXT-->
+            <h3 id="gender_text" class="attribute_text">Masculine</h3>
+        </div><!-- /.gender column -->
+
+
+
+
+
+
+
+
+
+        <!------------PLURAL OR SINGULAR COLUMN----------------->
+        <div class="col-md-4 col-sm-4 col-xs-6 text-center">
+
+            <!--PLURAL ANIMATION-->
+            <div id="plural_animation" class="attribute_container">
+                <svg id="plural" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30.1 18.4">
+                    <style>.st0{fill:#7A7A7A;} .st1{fill:#666;} .st2{fill:#FFFFFF;stroke:#FFFFFF;stroke-width:0.3456;stroke-miterlimit:10;}
+                    .st3{clip-path:url(#SVGID_2_);} .st4{fill:none;} .st5{clip-path:url(#SVGID_4_);} .st6{fill:none;stroke:#C1C1C1;stroke-width:0.4;stroke-miterlimit:10;}
+                    .st7{fill:#F1F47D;} .st8{fill:#EFEFEF;}</style>
+                    <circle id='circle1' class="st1" cx="4" cy="4.6" r="4"/>
+                    <circle id='circle2' class="st1 single_iteration" cx="15.1" cy="4.6" r="4"/>
+                    <circle id='circle3' class="st1 single_iteration" cx="26.1" cy="4.6" r="4"/>
+                    <circle id='circle4' class="st1 single_iteration" cx="4" cy="14.4" r="4"/>
+                    <circle id='circle5' class="st1 single_iteration" cx="15.1" cy="14.4" r="4"/>
+                    <circle id='circle6' class="st1 single_iteration" cx="26.1" cy="14.4" r="4"/>
+                </svg>
+            </div><!-- /.plural_animation -->
+
+            <!--SINGULAR ANIMATION-->
+            <div id="singular_animation" class="attribute_container">
+                <svg id="singular" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30.1 18.4">
+                    <style>.st0{fill:#FFFFFF;}</style>
+                    <circle id='singular_circle' class="st0" cx="14.7" cy="9.2" r="14.7"/>
+                </svg>
+            </div><!-- /.singular_animation -->
+
+            <!--PLURAL OR SINGULAR TEXT-->
+            <h3 id="plural_or_singular_text" class="attribute_text">Plural</h3>
+
+        </div><!-- /.plural or singular column -->
+
+
+
+
+
+        <!--CASE COLUMN-->
+        <div class="col-md-4 col-sm-4 col-xs-6 text-center">
+
+            <div id="case_animation" class="attribute_container">
+            <svg version="1.1" id="case" class="animated bounce" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 35 26.9">
+                <style type="text/css">
+                    .st0{fill:#FFFFFF;}
+                </style>
+                    <path class="st0" d="M10.2,14.9H7.6c-0.3,0-0.6,0.3-0.6,0.6v1.9h3.8v-1.9C10.8,15.2,10.5,14.9,10.2,14.9z M10.2,14.9H7.6
+                        c-0.3,0-0.6,0.3-0.6,0.6v1.9h3.8v-1.9C10.8,15.2,10.5,14.9,10.2,14.9z M7,17.9V19c0,0.3,0.3,0.6,0.6,0.6h2.6c0.3,0,0.6-0.3,0.6-0.6
+                        v-1.1H7z M29.6,14.9H27c-0.3,0-0.6,0.3-0.6,0.6v1.9h3.7v-1.9C30,15.2,29.9,14.9,29.6,14.9z M29.6,14.9H27c-0.3,0-0.6,0.3-0.6,0.6
+                        v1.9H30l0-1.9C30,15.2,29.9,14.9,29.6,14.9z M26.3,17.9V19c0,0.3,0.3,0.6,0.6,0.6h2.6c0.3,0,0.6-0.3,0.6-0.6v-1.1H26.3z M32.8,4.3
+                        H3.6v11.1c0,1.1,0.9,2,2,2h1V15c0-0.3,0.3-0.6,0.6-0.6h3.5c0.3,0,0.6,0.3,0.6,0.6v2.4h14.5l0-2.4c0-0.3,0.5-0.6,0.8-0.6H30
+                        c0.3,0,0.6,0.3,0.6,0.6v2.4h0.7c1.1,0,2-0.9,2-2v-11C33.1,4.3,32.9,4.3,32.8,4.3z M29.6,14.9H27c-0.3,0-0.6,0.3-0.6,0.6v1.9h3.7
+                        v-1.9C30,15.2,29.9,14.9,29.6,14.9z M29.6,14.9H27c-0.3,0-0.6,0.3-0.6,0.6v1.9h3.7v-1.9C30,15.2,29.9,14.9,29.6,14.9z M26.3,17.9
+                        V19c0,0.3,0.3,0.6,0.6,0.6h2.6c0.3,0,0.6-0.3,0.6-0.6v-1.1H26.3z M33.6,4.5v11c0,1.3-1.1,2.4-2.4,2.4h-0.6l0,1.5
+                        c0,0.3-0.4,0.6-0.7,0.6h-3.5c-0.3,0-0.6-0.3-0.6-0.6v-1.5H11.3v1.5c0,0.3-0.4,0.6-0.7,0.6H7.2c-0.3,0-0.6-0.3-0.6-0.6v-1.5h-1
+                        c-1.3,0-2.4-1.1-2.4-2.4V4.3h-1c-0.1,0-0.1,0-0.2,0C1.6,4.6,1.3,5,1.3,5.5v20.2c0,0.5,0.2,0.9,0.6,1.2c0.1,0,0.2,0,0.3,0h30.5
+                        c1.2,0,2.2-1,2.2-2.2V6.6C35,5.6,34.4,4.8,33.6,4.5z M0.7,5.5c0-0.3,0.1-0.6,0.3-0.8C0.4,5.1,0,5.8,0,6.6v18.1c0,0.8,0.4,1.5,1,1.9
+                        c-0.2-0.2-0.3-0.5-0.3-0.8V5.5z M26.3,17.9V19c0,0.3,0.3,0.6,0.6,0.6h2.6c0.3,0,0.6-0.3,0.6-0.6v-1.1H26.3z M26.3,17.9V19
+                        c0,0.3,0.3,0.6,0.6,0.6h2.6c0.3,0,0.6-0.3,0.6-0.6v-1.1H26.3z M29.6,14.9H27c-0.3,0-0.7,0.3-0.7,0.6v1.9h3.8v-1.9
+                        C30.1,15.2,29.9,14.9,29.6,14.9z M7,17.9V19c0,0.3,0.3,0.6,0.6,0.6h2.6c0.3,0,0.6-0.3,0.6-0.6v-1.1H7z M10.2,14.9H7.6
+                        c-0.3,0-0.6,0.3-0.6,0.6v1.9h3.8v-1.9C10.8,15.2,10.5,14.9,10.2,14.9z M7,17.9V19c0,0.3,0.3,0.6,0.6,0.6h2.6c0.3,0,0.6-0.3,0.6-0.6
+                        v-1.1H7z M10.2,14.9H7.6c-0.3,0-0.6,0.3-0.6,0.6v1.9h3.8v-1.9C10.8,15.2,10.5,14.9,10.2,14.9z"/>
+                    <path class="st0" d="M17.5,8.6c-3.7,0-6.7-1.9-6.7-4.2s2.9-4.2,6.7-4.2c3.7,0,6.7,1.9,6.7,4.2S21.2,8.6,17.5,8.6z M17.5,1.5
+                        c-2.8,0-5.2,1.3-5.2,2.8s2.4,2.8,5.2,2.8s5.2-1.3,5.2-2.8S20.3,1.5,17.5,1.5z"/>
+            </svg>
+
+                <!--CASE TEXT-->
+                <h3 id="case_text" class="attribute_text">Nominative</h3>
+
+                </div><!-- /.case column -->
+
+
+
+
+
+
+        </div><!-- /.case column -->
+
+    </div><!-- /.row -->
+

@@ -24,7 +24,7 @@ def scrape_words():
     base_url = 'http://masterrussian.com/vocabulary/common_nouns'
 
     # Crawl through pages
-    for page in range(1,2):
+    for page in range(2,3):
 
         # Stagger Requests to keep Server Happy
         sleep(1)

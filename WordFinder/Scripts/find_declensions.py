@@ -11,24 +11,73 @@ import re
 #     print word[0]
 
 # SUBMITS SEARCH
+#
+# list = scrape_words()
+# word_list = []
+# for item in list:
+#     word_list.append(item[0][0])
 
-list = scrape_words()
-word_list = []
-for item in list:
-    word_list.append(item[0][0])
+# for i in word_list:
+#     print i
+#
+
+# for word in word_list:
+#     sleep(1)
+#     br = Browser()
+#     br.set_handle_robots(False)
+#     br.open("http://www.multitran.ru/c/m.exe?a=1&SHL=2")
+#     br.select_form('translation')
+#     br.form['s'] = word.encode('utf8')
+#     print word
+#     response1 = br.submit()
+#     soup = BS(response1, "html.parser")
+#     response2 = br.follow_link(nr=13)
+#     soup2 = BS(response2, "html.parser")
+#     string = soup2.text
+#     declension_parser(string)
 
 
-for word in word_list:
+# def source_declension(word):
+#     print word
+#     sleep(1)
+#     br = Browser()
+#     br.set_handle_robots(False)
+#     br.open("http://www.multitran.ru/c/m.exe?a=1&SHL=2")
+#     br.select_form('translation')
+#     br.form['s'] = word.encode('utf8')
+#     response1 = br.submit()
+#     response2 = br.follow_link(nr=13)
+#     soup2 = BS(response2, "html.parser")
+#     string = soup2.text
+#     x = declension_parser(string)
+#     if len(x) != 12:
+#         return word, 'We have a problem'
+#     else:
+#         return word, 'All good here'
+#
+#
+
+
+def test(word):
+    print word
     sleep(1)
     br = Browser()
     br.set_handle_robots(False)
     br.open("http://www.multitran.ru/c/m.exe?a=1&SHL=2")
     br.select_form('translation')
     br.form['s'] = word.encode('utf8')
-    print word
+    for link in br.links():
+        print link.text, link.url
     response1 = br.submit()
-    soup = BS(response1, "html.parser")
     response2 = br.follow_link(nr=13)
     soup2 = BS(response2, "html.parser")
     string = soup2.text
-    declension_parser(string)
+    print string
+    x = declension_parser(string)
+    if len(x) != 12:
+        return word, 'We have a problem'
+    else:
+        return word, 'All good here'
+
+print test(u'спина ')
+

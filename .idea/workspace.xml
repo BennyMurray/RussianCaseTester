@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="edb3c51f-30d7-4df9-bdf5-0345550e9a32" name="Default" comment="" />
+    <list default="true" id="edb3c51f-30d7-4df9-bdf5-0345550e9a32" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WordFinder/Scripts/declension_parser.py" afterPath="$PROJECT_DIR$/WordFinder/Scripts/declension_parser.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WordFinder/Scripts/find_declensions.py" afterPath="$PROJECT_DIR$/WordFinder/Scripts/find_declensions.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WordFinder/Scripts/scrape_words.py" afterPath="$PROJECT_DIR$/WordFinder/Scripts/scrape_words.py" />
+    </list>
     <ignored path="untitled8.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -13,9 +19,9 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/untitled8$find_declensions.coverage" NAME="find_declensions Coverage Results" MODIFIED="1488488629470" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/WordFinder/Scripts" />
+    <SUITE FILE_PATH="coverage/untitled8$find_declensions.coverage" NAME="find_declensions Coverage Results" MODIFIED="1488560122445" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/WordFinder/Scripts" />
     <SUITE FILE_PATH="coverage/untitled8$delete.coverage" NAME="delete Coverage Results" MODIFIED="1488487032401" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/WordFinder/Scripts" />
-    <SUITE FILE_PATH="coverage/untitled8$declension_parser.coverage" NAME="declension_parser Coverage Results" MODIFIED="1488487486526" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/WordFinder/Scripts" />
+    <SUITE FILE_PATH="coverage/untitled8$declension_parser.coverage" NAME="declension_parser Coverage Results" MODIFIED="1488553145086" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/WordFinder/Scripts" />
     <SUITE FILE_PATH="coverage/untitled8$scrape_words.coverage" NAME="scrape_words Coverage Results" MODIFIED="1488481447233" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/WordFinder/Scripts" />
   </component>
   <component name="CreatePatchCommitExecutor">
@@ -80,8 +86,8 @@
       <file leaf-file-name="scrape_words.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/WordFinder/Scripts/scrape_words.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="23" />
+            <state relative-caret-position="390">
+              <caret line="26" column="25" selection-start-line="26" selection-start-column="25" selection-end-line="26" selection-end-column="25" />
               <folding>
                 <element signature="e#24#59#0" expanded="true" />
               </folding>
@@ -89,11 +95,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="find_declensions.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="find_declensions.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/WordFinder/Scripts/find_declensions.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="34" column="0" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+            <state relative-caret-position="798">
+              <caret line="69" column="23" selection-start-line="69" selection-start-column="23" selection-end-line="69" selection-end-column="23" />
               <folding>
                 <element signature="e#24#61#0" expanded="true" />
               </folding>
@@ -101,11 +107,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="declension_parser.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="declension_parser.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/WordFinder/Scripts/declension_parser.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="26" column="136" selection-start-line="26" selection-start-column="136" selection-end-line="26" selection-end-column="136" />
+            <state relative-caret-position="555">
+              <caret line="37" column="249" selection-start-line="37" selection-start-column="249" selection-end-line="37" selection-end-column="249" />
               <folding />
             </state>
           </provider>
@@ -131,6 +137,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -138,10 +147,10 @@
         <option value="$PROJECT_DIR$/casetester/templates/casetester/base.html" />
         <option value="$PROJECT_DIR$/casetester/templates/casetester/content.html" />
         <option value="$PROJECT_DIR$/untitled8/settings.py" />
-        <option value="$PROJECT_DIR$/WordFinder/Scripts/scrape_words.py" />
         <option value="$PROJECT_DIR$/WordFinder/Scripts/delete.py" />
-        <option value="$PROJECT_DIR$/WordFinder/Scripts/find_declensions.py" />
+        <option value="$PROJECT_DIR$/WordFinder/Scripts/scrape_words.py" />
         <option value="$PROJECT_DIR$/WordFinder/Scripts/declension_parser.py" />
+        <option value="$PROJECT_DIR$/WordFinder/Scripts/find_declensions.py" />
       </list>
     </option>
   </component>
@@ -152,8 +161,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="192" />
-    <option name="y" value="107" />
+    <option name="x" value="256" />
+    <option name="y" value="23" />
     <option name="width" value="3200" />
     <option name="height" value="1705" />
   </component>
@@ -182,6 +191,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -302,7 +312,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="Scratches" />
     </panes>
   </component>
@@ -677,10 +686,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="192" y="107" width="3200" height="1705" extended-state="0" />
-    <editor active="true" />
+    <frame x="256" y="23" width="3200" height="1705" extended-state="0" />
+    <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25300825" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25459152" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -716,6 +725,82 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/untitled8/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="19" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/untitled8/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WordFinder/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/casetester/templates/casetester/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="7" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/casetester/templates/casetester/content.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="67" selection-start-line="16" selection-start-column="67" selection-end-line="16" selection-end-column="67" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WordFinder/Scripts/scrape_words.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="23" />
+          <folding>
+            <element signature="e#24#59#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WordFinder/Scripts/find_declensions.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding>
+            <element signature="e#24#61#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WordFinder/Scripts/declension_parser.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WordFinder/Scripts/delete.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="6" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="71" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/untitled8/settings.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -796,14 +881,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/untitled8/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="6" column="19" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/casetester/templates/casetester/content.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
@@ -830,29 +907,37 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/WordFinder/Scripts/scrape_words.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="23" />
+        <state relative-caret-position="390">
+          <caret line="26" column="25" selection-start-line="26" selection-start-column="25" selection-end-line="26" selection-end-column="25" />
           <folding>
             <element signature="e#24#59#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/WordFinder/Scripts/find_declensions.py">
+    <entry file="file://$PROJECT_DIR$/untitled8/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="34" column="0" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
-          <folding>
-            <element signature="e#24#61#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="30">
+          <caret line="6" column="19" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/WordFinder/Scripts/declension_parser.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="26" column="136" selection-start-line="26" selection-start-column="136" selection-end-line="26" selection-end-column="136" />
+        <state relative-caret-position="555">
+          <caret line="37" column="249" selection-start-line="37" selection-start-column="249" selection-end-line="37" selection-end-column="249" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WordFinder/Scripts/find_declensions.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="798">
+          <caret line="69" column="23" selection-start-line="69" selection-start-column="23" selection-end-line="69" selection-end-column="23" />
+          <folding>
+            <element signature="e#24#61#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

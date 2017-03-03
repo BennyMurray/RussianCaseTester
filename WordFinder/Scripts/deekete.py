@@ -58,28 +58,18 @@ import re
 #
 
 
-def test(word):
-    print word
-    sleep(1)
-    br = Browser()
-    br.set_handle_robots(False)
-    br.open("http://www.multitran.ru/c/m.exe?a=1&SHL=2")
-    br.select_form('translation')
-    br.form['s'] = word.encode('utf8')
-    for index, link in enumerate(br.links()):
-        if index == 13:
-            print link.text, link.url
-    response1 = br.submit()
-    response2 = br.follow_link(nr=13)
-    soup2 = BS(response2, "html.parser")
-    string = soup2.text
-    x = declension_parser(string)
-    if len(x) != 12:
-        return word, 'We have a problem'
-    else:
-        return word, 'All good here'
+br = Browser()
+br.set_handle_robots(False)
+br.open("http://www.multitran.ru/c/m.exe?a=118&t=15491_2_1")
+br.select_form(nr=0)
+br.form['s'] = 'спина'
+response = br.submit()
+soup = BS(response, "html.parser")
+x = declension_parser(soup.text)
+for i in x:
+    print i
 
-print test(u'Москва')
-print test(u'спина ')
-
-
+# print test(u'Москва')
+# print test(u'спина ')
+#
+#

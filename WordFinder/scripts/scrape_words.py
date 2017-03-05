@@ -5,7 +5,7 @@ from time import sleep
 
 def scrape_words():
 
-    word_list = []
+    word_dict ={}
 
     br = Browser()
 
@@ -24,8 +24,7 @@ def scrape_words():
     base_url = 'http://masterrussian.com/vocabulary/common_nouns'
 
     # Crawl through pages
-    for page in range(2,3):
-
+    for page in range(1,3):
         # Stagger Requests to keep Server Happy
         sleep(1)
 
@@ -50,12 +49,12 @@ def scrape_words():
 
                 # A word list should only contain three entries: noun, translation, gender
                 if len(word) == 3:
-                    word_list.append(word)
+                    word_dict[word[0][0].strip()] = {'translation': word[1][0], 'gender': word[2][0]}
             else:
                 word = [word_info.contents for index, word_info in enumerate(children) if index > 0]
                 if len(word) == 3:
-                    word_list.append(word)
+                    word_dict[word[0][0].strip()] = {'translation': word[1][0], 'gender': word[2][0]}
 
-        print 'Collected ' + str(len(word_list)) + '/500 words'
+        print 'Collected ' + str(len(word_dict)) + '/500 words'
 
-    return word_list
+    return word_dict

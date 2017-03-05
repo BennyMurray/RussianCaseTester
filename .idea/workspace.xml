@@ -2,11 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="edb3c51f-30d7-4df9-bdf5-0345550e9a32" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WordFinder/Scripts/deekete.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/untitled8.iml" afterPath="$PROJECT_DIR$/.idea/untitled8.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/API/urls.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WordFinder/scripts/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WordFinder/scripts/cook_soup.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WordFinder/scripts/gender_parser.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WordFinder/scripts/load_500_most_common_nouns.py" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WordFinder/Scripts/find_declensions.py" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/WordFinder/Scripts/__init__.py" afterPath="$PROJECT_DIR$/API/serializers.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/WordFinder/Scripts/declension_parser.py" afterPath="$PROJECT_DIR$/WordFinder/scripts/declension_parser.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/WordFinder/Scripts/deekete.py" afterPath="$PROJECT_DIR$/WordFinder/scripts/deekete.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/WordFinder/Scripts/delete.py" afterPath="$PROJECT_DIR$/WordFinder/scripts/delete.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/WordFinder/Scripts/scrape_words.py" afterPath="$PROJECT_DIR$/WordFinder/scripts/scrape_words.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WordFinder/Scripts/find_declensions.py" afterPath="$PROJECT_DIR$/WordFinder/Scripts/find_declensions.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WordFinder/admin.py" afterPath="$PROJECT_DIR$/WordFinder/admin.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WordFinder/models.py" afterPath="$PROJECT_DIR$/WordFinder/models.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/untitled8/settings.py" afterPath="$PROJECT_DIR$/untitled8/settings.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/untitled8/urls.py" afterPath="$PROJECT_DIR$/untitled8/urls.py" />
     </list>
     <ignored path="untitled8.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -20,11 +31,14 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/untitled8$find_declensions.coverage" NAME="find_declensions Coverage Results" MODIFIED="1488560122445" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/WordFinder/Scripts" />
+    <SUITE FILE_PATH="coverage/RussianCaseTester$scrape_words.coverage" NAME="scrape_words Coverage Results" MODIFIED="1488720954269" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/WordFinder/Scripts" />
+    <SUITE FILE_PATH="coverage/RussianCaseTester$load_500_most_common_nouns.coverage" NAME="load_500_most_common_nouns Coverage Results" MODIFIED="1488722586051" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/WordFinder/Scripts" />
     <SUITE FILE_PATH="coverage/untitled8$delete.coverage" NAME="delete Coverage Results" MODIFIED="1488487032401" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/WordFinder/Scripts" />
     <SUITE FILE_PATH="coverage/untitled8$scrape_words.coverage" NAME="scrape_words Coverage Results" MODIFIED="1488481447233" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/WordFinder/Scripts" />
-    <SUITE FILE_PATH="coverage/RussianCaseTester$find_declensions.coverage" NAME="find_declensions Coverage Results" MODIFIED="1488572962919" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/WordFinder/Scripts" />
+    <SUITE FILE_PATH="coverage/RussianCaseTester$find_declensions.coverage" NAME="find_declensions Coverage Results" MODIFIED="1488719123927" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/WordFinder/Scripts" />
+    <SUITE FILE_PATH="coverage/RussianCaseTester$delete.coverage" NAME="delete Coverage Results" MODIFIED="1488718626086" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/WordFinder/Scripts" />
     <SUITE FILE_PATH="coverage/untitled8$declension_parser.coverage" NAME="declension_parser Coverage Results" MODIFIED="1488553145086" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/WordFinder/Scripts" />
-    <SUITE FILE_PATH="coverage/RussianCaseTester$deekete.coverage" NAME="deekete Coverage Results" MODIFIED="1488573699094" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/WordFinder/Scripts" />
+    <SUITE FILE_PATH="coverage/RussianCaseTester$deekete.coverage" NAME="deekete Coverage Results" MODIFIED="1488651564333" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/WordFinder/Scripts" />
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
@@ -38,11 +52,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="deekete.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/WordFinder/Scripts/deekete.py">
+      <file leaf-file-name="models.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/WordFinder/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="224">
-              <caret line="60" column="14" selection-start-line="60" selection-start-column="14" selection-end-line="60" selection-end-column="14" />
+            <state relative-caret-position="297">
+              <caret line="33" column="17" selection-start-line="33" selection-start-column="17" selection-end-line="33" selection-end-column="17" />
               <folding />
             </state>
           </provider>
@@ -64,15 +78,24 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/WordFinder/models.py" />
         <option value="$PROJECT_DIR$/casetester/templates/casetester/base.html" />
         <option value="$PROJECT_DIR$/casetester/templates/casetester/content.html" />
-        <option value="$PROJECT_DIR$/untitled8/settings.py" />
-        <option value="$PROJECT_DIR$/WordFinder/Scripts/delete.py" />
-        <option value="$PROJECT_DIR$/WordFinder/Scripts/scrape_words.py" />
-        <option value="$PROJECT_DIR$/WordFinder/Scripts/declension_parser.py" />
-        <option value="$PROJECT_DIR$/WordFinder/Scripts/find_declensions.py" />
         <option value="$PROJECT_DIR$/WordFinder/Scripts/deekete.py" />
+        <option value="$PROJECT_DIR$/WordFinder/Scripts/delete.py" />
+        <option value="$PROJECT_DIR$/WordFinder/Scripts/determine_gender.py" />
+        <option value="$PROJECT_DIR$/WordFinder/Scripts/find_declensions.py" />
+        <option value="$PROJECT_DIR$/WordFinder/Scripts/scrape_words.py" />
+        <option value="$PROJECT_DIR$/WordFinder/Scripts/gender_parser.py" />
+        <option value="$PROJECT_DIR$/WordFinder/Scripts/declension_parser.py" />
+        <option value="$PROJECT_DIR$/WordFinder/Scripts/load_500_most_common_nouns.py" />
+        <option value="$PROJECT_DIR$/WordFinder/scripts/load_500_most_common_nouns.py" />
+        <option value="$PROJECT_DIR$/untitled8/settings.py" />
+        <option value="$PROJECT_DIR$/API/urls.py" />
+        <option value="$PROJECT_DIR$/untitled8/urls.py" />
+        <option value="$PROJECT_DIR$/API/serializers.py" />
+        <option value="$PROJECT_DIR$/API/views.py" />
+        <option value="$PROJECT_DIR$/WordFinder/models.py" />
+        <option value="$PROJECT_DIR$/WordFinder/admin.py" />
       </list>
     </option>
   </component>
@@ -83,10 +106,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1" />
-    <option name="y" value="1" />
+    <option name="x" value="18" />
+    <option name="y" value="15" />
     <option name="width" value="1364" />
-    <option name="height" value="726" />
+    <option name="height" value="712" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -142,7 +165,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="casetester" />
+              <option name="myItemId" value="untitled8" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -157,24 +180,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="WordFinder" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="RussianCaseTester" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="RussianCaseTester" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WordFinder" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Scripts" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -197,7 +202,7 @@
       </console-settings>
     </option>
   </component>
-  <component name="RunManager" selected="Python.deekete">
+  <component name="RunManager" selected="Python.load_500_most_common_nouns">
     <configuration default="false" name="scrape_words" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -229,7 +234,7 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="untitled8" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/WordFinder/Scripts/find_declensions.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\Bazin\RussianCaseTester\WordFinder\Scripts\cook_soup.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -252,24 +257,6 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
     </configuration>
-    <configuration default="false" name="declension_parser" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/WordFinder/Scripts" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="untitled8" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/WordFinder/Scripts/declension_parser.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
     <configuration default="false" name="deekete" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -284,6 +271,24 @@
       <module name="untitled8" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/WordFinder/Scripts/deekete.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="load_500_most_common_nouns" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/WordFinder/Scripts" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="untitled8" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/WordFinder/Scripts/load_500_most_common_nouns.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -558,16 +563,16 @@
       <item index="1" class="java.lang.String" itemvalue="Python.scrape_words" />
       <item index="2" class="java.lang.String" itemvalue="Python.find_declensions" />
       <item index="3" class="java.lang.String" itemvalue="Python.delete" />
-      <item index="4" class="java.lang.String" itemvalue="Python.declension_parser" />
-      <item index="5" class="java.lang.String" itemvalue="Python.deekete" />
+      <item index="4" class="java.lang.String" itemvalue="Python.deekete" />
+      <item index="5" class="java.lang.String" itemvalue="Python.load_500_most_common_nouns" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.deekete" />
-        <item index="1" class="java.lang.String" itemvalue="Python.find_declensions" />
-        <item index="2" class="java.lang.String" itemvalue="Python.declension_parser" />
+        <item index="0" class="java.lang.String" itemvalue="Python.load_500_most_common_nouns" />
+        <item index="1" class="java.lang.String" itemvalue="Python.scrape_words" />
+        <item index="2" class="java.lang.String" itemvalue="Python.find_declensions" />
         <item index="3" class="java.lang.String" itemvalue="Python.delete" />
-        <item index="4" class="java.lang.String" itemvalue="Python.scrape_words" />
+        <item index="4" class="java.lang.String" itemvalue="Python.deekete" />
       </list>
     </recent_temporary>
   </component>
@@ -585,7 +590,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1" y="1" width="1364" height="726" extended-state="0" />
+    <frame x="18" y="15" width="1364" height="712" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26226994" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -593,10 +598,10 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.35864297" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289256" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39632106" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32982022" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3586777" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.399876" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -620,7 +625,9 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
@@ -664,7 +671,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/WordFinder/Scripts/scrape_words.py">
+    <entry file="file://$PROJECT_DIR$/WordFinder/scripts/scrape_words.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="416">
           <caret line="26" column="25" selection-start-line="26" selection-start-column="25" selection-end-line="26" selection-end-column="25" />
@@ -674,17 +681,15 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/WordFinder/Scripts/find_declensions.py">
+    <entry file="file://$PROJECT_DIR$/WordFinder/scripts/cook_soup.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1024">
           <caret line="69" column="23" selection-start-line="69" selection-start-column="23" selection-end-line="69" selection-end-column="23" />
-          <folding>
-            <element signature="e#24#61#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/WordFinder/Scripts/declension_parser.py">
+    <entry file="file://$PROJECT_DIR$/WordFinder/scripts/declension_parser.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="592">
           <caret line="37" column="249" selection-start-line="37" selection-start-column="249" selection-end-line="37" selection-end-column="249" />
@@ -692,7 +697,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/WordFinder/Scripts/delete.py">
+    <entry file="file://$PROJECT_DIR$/WordFinder/scripts/delete.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="80">
           <caret line="5" column="6" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="71" />
@@ -739,7 +744,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/WordFinder/Scripts/scrape_words.py">
+    <entry file="file://$PROJECT_DIR$/WordFinder/scripts/scrape_words.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="23" />
@@ -749,17 +754,15 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/WordFinder/Scripts/find_declensions.py">
+    <entry file="file://$PROJECT_DIR$/WordFinder/scripts/cook_soup.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-          <folding>
-            <element signature="e#24#61#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/WordFinder/Scripts/declension_parser.py">
+    <entry file="file://$PROJECT_DIR$/WordFinder/scripts/declension_parser.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -767,7 +770,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/WordFinder/Scripts/delete.py">
+    <entry file="file://$PROJECT_DIR$/WordFinder/scripts/delete.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="5" column="6" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="71" />
@@ -838,14 +841,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/WordFinder/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/casetester/templates/casetester/base.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
@@ -861,69 +856,214 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/untitled8/urls.py">
+    <entry file="file://$PROJECT_DIR$/WordFinder/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/WordFinder/Scripts/scrape_words.py">
+    <entry file="file://$PROJECT_DIR$/WordFinder/scripts/deekete.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
+        <state relative-caret-position="285">
+          <caret line="68" column="11" selection-start-line="68" selection-start-column="11" selection-end-line="68" selection-end-column="11" />
+          <folding>
+            <marker date="1488573872817" expanded="false" signature="24:208" ph="import ..." />
+            <marker date="1488573872817" expanded="true" signature="210:1452" ph="..." />
+            <marker date="1488573872817" expanded="true" signature="1719:1770" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WordFinder/scripts/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WordFinder/scripts/delete.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WordFinder/scripts/cook_soup.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
+          <folding>
+            <marker date="1488721472758" expanded="true" signature="24:112" ph="import ..." />
+            <marker date="1488721472758" expanded="true" signature="134:487" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WordFinder/scripts/scrape_words.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="16">
           <caret line="26" column="25" selection-start-line="26" selection-start-column="25" selection-end-line="26" selection-end-column="25" />
           <folding>
-            <element signature="e#24#59#0" expanded="false" />
+            <marker date="1488722019104" expanded="false" signature="24:112" ph="import ..." />
+            <marker date="1488722019104" expanded="true" signature="133:2027" ph="..." />
+            <marker date="1488722019104" expanded="true" signature="654:2005" ph="..." />
+            <marker date="1488722019104" expanded="true" signature="769:844" ph="..." />
+            <marker date="1488722019104" expanded="true" signature="858:949" ph="..." />
+            <marker date="1488722019104" expanded="true" signature="1201:1940" ph="..." />
+            <marker date="1488722019104" expanded="true" signature="1354:1684" ph="..." />
+            <marker date="1488722019104" expanded="true" signature="1702:1940" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WordFinder/scripts/declension_parser.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="37" column="0" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
+          <folding>
+            <marker date="1488723232353" expanded="true" signature="65:2032" ph="..." />
+            <marker date="1488723232353" expanded="true" signature="736:1382" ph="..." />
+            <marker date="1488723232353" expanded="true" signature="1406:1597" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WordFinder/scripts/gender_parser.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="23" />
+          <folding>
+            <marker date="1488722548723" expanded="true" signature="58:197" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/casetester/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/casetester/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WordFinder/scripts/load_500_most_common_nouns.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" column="31" selection-start-line="25" selection-start-column="31" selection-end-line="25" selection-end-column="31" />
+          <folding>
+            <marker date="1488730834614" expanded="true" signature="25:178" ph="import ..." />
+            <marker date="1488730834614" expanded="true" signature="191:1485" ph="..." />
+            <marker date="1488730834614" expanded="true" signature="262:1485" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/untitled8/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="6" column="19" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WordFinder/Scripts/declension_parser.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="555">
-          <caret line="37" column="249" selection-start-line="37" selection-start-column="249" selection-end-line="37" selection-end-column="249" />
+        <state relative-caret-position="336">
+          <caret line="42" column="4" selection-start-line="42" selection-start-column="4" selection-end-line="42" selection-end-column="4" />
           <folding>
-            <marker date="1488570829459" expanded="true" signature="66:2087" ph="..." />
-            <marker date="1488570829459" expanded="true" signature="828:1474" ph="..." />
-            <marker date="1488570829459" expanded="true" signature="1486:1677" ph="..." />
+            <marker date="1488732877193" expanded="true" signature="0:311" ph="&quot;&quot;&quot;Django settings for untitled8 project....&quot;&quot;&quot;" />
+            <marker date="1488732877193" expanded="true" signature="469:672" ph="..." />
+            <marker date="1488732877193" expanded="true" signature="885:1155" ph="..." />
+            <marker date="1488732877193" expanded="true" signature="1180:1577" ph="..." />
+            <marker date="1488732877193" expanded="true" signature="1626:2139" ph="..." />
+            <marker date="1488732877193" expanded="true" signature="1632:2136" ph="..." />
+            <marker date="1488732877193" expanded="true" signature="1813:2129" ph="..." />
+            <marker date="1488732877193" expanded="true" signature="1849:2118" ph="..." />
+            <marker date="1488732877193" expanded="true" signature="2192:2267" ph="..." />
+            <marker date="1488732877193" expanded="true" signature="2282:2408" ph="..." />
+            <marker date="1488732877193" expanded="true" signature="2299:2406" ph="..." />
+            <marker date="1488732877193" expanded="true" signature="2412:2513" ph="..." />
+            <marker date="1488732877193" expanded="true" signature="2543:2937" ph="..." />
+            <marker date="1488732877193" expanded="true" signature="2549:2646" ph="..." />
+            <marker date="1488732877193" expanded="true" signature="2654:2741" ph="..." />
+            <marker date="1488732877193" expanded="true" signature="2749:2837" ph="..." />
+            <marker date="1488732877193" expanded="true" signature="2845:2934" ph="..." />
+            <marker date="1488732877193" expanded="true" signature="2941:3017" ph="..." />
+            <marker date="1488732877193" expanded="true" signature="3113:3214" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/WordFinder/Scripts/delete.py">
+    <entry file="file://$PROJECT_DIR$/API/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/untitled8/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding>
+            <marker date="1488733619647" expanded="true" signature="1:165" ph="import ..." />
+            <marker date="1488733619647" expanded="true" signature="262:422" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/API/serializers.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="112">
-          <caret line="7" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="10" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WordFinder/Scripts/find_declensions.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="71" column="1" selection-start-line="0" selection-start-column="0" selection-end-line="85" selection-end-column="0" />
+          <caret line="7" column="53" selection-start-line="7" selection-start-column="53" selection-end-line="7" selection-end-column="53" />
           <folding>
-            <marker date="1488572977219" expanded="false" signature="24:208" ph="import ..." />
-            <marker date="1488572977219" expanded="true" signature="210:1452" ph="..." />
-            <marker date="1488572977219" expanded="true" signature="1470:2061" ph="..." />
-            <marker date="1488572977219" expanded="true" signature="1725:1787" ph="..." />
+            <marker date="1488733998392" expanded="true" signature="0:73" ph="import ..." />
+            <marker date="1488733998392" expanded="true" signature="137:229" ph="..." />
+            <marker date="1488733998392" expanded="true" signature="153:229" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/WordFinder/Scripts/deekete.py">
+    <entry file="file://$PROJECT_DIR$/API/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="60" column="14" selection-start-line="60" selection-start-column="14" selection-end-line="60" selection-end-column="14" />
+        <state relative-caret-position="240">
+          <caret line="15" column="10" selection-start-line="15" selection-start-column="10" selection-end-line="15" selection-end-column="10" />
+          <folding>
+            <marker date="1488734821415" expanded="true" signature="0:136" ph="import ..." />
+            <marker date="1488734821415" expanded="true" signature="180:449" ph="..." />
+            <marker date="1488734821415" expanded="true" signature="185:255" ph="&quot;&quot;&quot;...&quot;&quot;&quot;" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/API/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WordFinder/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding>
+            <marker date="1488735938592" expanded="true" signature="0:57" ph="import ..." />
+            <marker date="1488735938592" expanded="true" signature="93:145" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WordFinder/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="33" column="17" selection-start-line="33" selection-start-column="17" selection-end-line="33" selection-end-column="17" />
           <folding />
         </state>
       </provider>

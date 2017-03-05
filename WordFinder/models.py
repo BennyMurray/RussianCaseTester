@@ -3,19 +3,21 @@ from django.db import models
 class Word(models.Model):
 
     GENDER_CHOICES = (
-        ('MASCULINE', 'Masculine'),
-        ('FEMININE', 'Feminine'),
-        ('NEUTER', 'Neuter'),
+        ('MASCULINE', 'masculine'),
+        ('FEMININE', 'feminine'),
+        ('NEUTER', 'neuter'),
     )
 
     LEXICAL_CATEGORY_CHOICES = (
-        ('NOUN', 'Noun'),
-        ('ADJECTIVE', 'Adjective'),
+        ('NOUN', 'noun'),
+        ('ADJECTIVE', 'adjective'),
     )
 
-    gender = models.CharField(max_length=8, choice=GENDER_CHOICES)
-    lexical_category = models.CharField(max_length=9, choice=LEXICAL_CATEGORY_CHOICES)
-    regular = models.BooleanField(required=True)
+    spelling = models.CharField(max_length=100)
+    translation = models.CharField(max_length=100)
+    gender = models.CharField(max_length=8, choices=GENDER_CHOICES)
+    lexical_category = models.CharField(max_length=9, choices=LEXICAL_CATEGORY_CHOICES)
+    regular = models.BooleanField(default=True)
     nominative_singular = models.CharField(max_length=100)
     accusative_singular = models.CharField(max_length=100)
     dative_singular = models.CharField(max_length=100)
@@ -28,6 +30,9 @@ class Word(models.Model):
     genitive_plural = models.CharField(max_length=100)
     prepositional_plural = models.CharField(max_length=100)
     instrumental_plural = models.CharField(max_length=100)
+
+    def __unicode__(self):
+        return self.spelling
 
 
 

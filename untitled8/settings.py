@@ -41,6 +41,7 @@ INSTALLED_APPS = [
     'casetester',
     'django_extensions',
     'rest_framework',
+    'API'
 ]
 
 MIDDLEWARE_CLASSES = [

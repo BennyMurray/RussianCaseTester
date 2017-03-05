@@ -2,12 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="edb3c51f-30d7-4df9-bdf5-0345550e9a32" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/db.sqlite3" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/serializers.py" afterPath="$PROJECT_DIR$/API/serializers.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/urls.py" afterPath="$PROJECT_DIR$/API/urls.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/views.py" afterPath="$PROJECT_DIR$/API/views.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/untitled8/settings.py" afterPath="$PROJECT_DIR$/untitled8/settings.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/untitled8/urls.py" afterPath="$PROJECT_DIR$/untitled8/urls.py" />
     </list>
     <ignored path="untitled8.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -45,8 +43,8 @@
       <file leaf-file-name="views.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/API/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="192">
-              <caret line="12" column="53" selection-start-line="12" selection-start-column="53" selection-end-line="12" selection-end-column="53" />
+            <state relative-caret-position="240">
+              <caret line="15" column="39" selection-start-line="15" selection-start-column="39" selection-end-line="15" selection-end-column="39" />
               <folding>
                 <element signature="e#0#25#0" expanded="true" />
               </folding>
@@ -81,12 +79,12 @@
         <option value="$PROJECT_DIR$/WordFinder/Scripts/declension_parser.py" />
         <option value="$PROJECT_DIR$/WordFinder/Scripts/load_500_most_common_nouns.py" />
         <option value="$PROJECT_DIR$/WordFinder/scripts/load_500_most_common_nouns.py" />
-        <option value="$PROJECT_DIR$/API/serializers.py" />
         <option value="$PROJECT_DIR$/WordFinder/admin.py" />
         <option value="$PROJECT_DIR$/WordFinder/models.py" />
         <option value="$PROJECT_DIR$/untitled8/settings.py" />
         <option value="$PROJECT_DIR$/casetester/views.py" />
         <option value="$PROJECT_DIR$/untitled8/urls.py" />
+        <option value="$PROJECT_DIR$/API/serializers.py" />
         <option value="$PROJECT_DIR$/API/urls.py" />
         <option value="$PROJECT_DIR$/API/views.py" />
       </list>
@@ -99,8 +97,6 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="89" />
-    <option name="y" value="10" />
     <option name="width" value="1365" />
     <option name="height" value="712" />
   </component>
@@ -683,7 +679,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="89" y="10" width="1365" height="712" extended-state="0" />
+    <frame x="0" y="0" width="1365" height="712" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26590037" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -724,14 +720,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/untitled8/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/WordFinder/models.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="48">
@@ -756,6 +744,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="256">
           <caret line="16" column="67" selection-start-line="16" selection-start-column="67" selection-end-line="16" selection-end-column="67" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -837,6 +826,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
           <caret line="16" column="67" selection-start-line="16" selection-start-column="67" selection-end-line="16" selection-end-column="67" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -918,6 +908,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3045">
           <caret line="203" column="7" selection-start-line="203" selection-start-column="7" selection-end-line="203" selection-end-column="7" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -961,6 +952,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
           <caret line="16" column="67" selection-start-line="16" selection-start-column="67" selection-end-line="16" selection-end-column="67" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1114,18 +1106,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/API/serializers.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="7" column="20" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="54" />
-          <folding>
-            <marker date="1488733998392" expanded="true" signature="0:73" ph="import ..." />
-            <marker date="1488733998392" expanded="true" signature="137:229" ph="..." />
-            <marker date="1488733998392" expanded="true" signature="153:229" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/casetester/views.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="48">
@@ -1145,21 +1125,44 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/API/serializers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="21" column="40" selection-start-line="21" selection-start-column="40" selection-end-line="21" selection-end-column="40" />
+          <folding>
+            <marker date="1488746700674" expanded="true" signature="0:73" ph="import ..." />
+            <marker date="1488746700674" expanded="true" signature="137:767" ph="..." />
+            <marker date="1488746700674" expanded="true" signature="153:767" ph="..." />
+            <marker date="1488746700674" expanded="true" signature="193:747" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/API/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1488732713358" expanded="true" signature="0:69" ph="import ..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/API/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="5" column="16" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
+        <state relative-caret-position="128">
+          <caret line="8" column="34" selection-start-line="8" selection-start-column="34" selection-end-line="8" selection-end-column="34" />
           <folding>
-            <marker date="1488745216084" expanded="true" signature="0:116" ph="import ..." />
-            <marker date="1488745216084" expanded="true" signature="133:182" ph="..." />
+            <marker date="1488753825051" expanded="true" signature="0:116" ph="import ..." />
+            <marker date="1488753825051" expanded="true" signature="133:211" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/API/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="12" column="53" selection-start-line="12" selection-start-column="53" selection-end-line="12" selection-end-column="53" />
+        <state relative-caret-position="240">
+          <caret line="15" column="39" selection-start-line="15" selection-start-column="39" selection-end-line="15" selection-end-column="39" />
           <folding>
             <element signature="e#0#25#0" expanded="true" />
           </folding>
